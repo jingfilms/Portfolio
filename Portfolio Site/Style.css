@@ -28,27 +28,7 @@ body{
 	font-size: 1.3vw;
 }*/
 
-@media screen and (max-width: 600px) {
-	#navbarNav ul li a:not(:first-child) {display: none;}
-	#navbarNav ul li a.icon {
-	  float: right;
-	  display: block;
-	}
-  }
-  
-  @media screen and (max-width: 600px) {
-	#navbarNav.responsive{position: relative;}
-	#navbarNav.responsive .icon {
-	  position: absolute;
-	  right: 0;
-	  top: 0;
-	}
-	#navbarNav.responsive a {
-	  float: none;
-	  display: block;
-	  text-align: left;
-	}
-  }
+
 .content {
 	margin-top:17vw;
 	margin-bottom: 35vw;
@@ -57,9 +37,12 @@ body{
 h2{
 	text-indent: 3%;
 }
+h3{
+	font-size: 4vw;
+}
 
 p{
-	font-size: 18px;
+	font-size: 15px;
 	text-indent: 4%;
 	
 }
@@ -71,7 +54,7 @@ p{
 	background-repeat: no-repeat;
 	background-attachment: fixed;*/
 	background-color: white !important;
-	display: flex;
+	
 
 	
 }
