@@ -1,0 +1,112 @@
+/*html,body{
+	height: 100vh;
+	width: 100vw;
+	/*background-image:
+	url('Images/Background%20	Image.png');
+	background-position: 0% 9%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}*/
+
+nav{
+	
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border-bottom: 1px solid rgba(0,0,0,.0975);
+	background-color: white !important;
+}
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #fafafa;
+}
+
+
+/*.nav-link .navbar-brand {
+	color: black !important;
+}
+.nav-link {
+	font-size: 1.3vw;
+}*/
+
+@media screen and (max-width: 600px) {
+	#navbarNav ul li a:not(:first-child) {display: none;}
+	#navbarNav ul li a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	#navbarNav.responsive{position: relative;}
+	#navbarNav.responsive .icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	#navbarNav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  }
+.content {
+	margin-top:17vw;
+	margin-bottom: 35vw;
+}
+
+h2{
+	text-indent: 3%;
+}
+
+p{
+	font-size: 18px;
+	text-indent: 4%;
+	
+}
+
+#video {
+	
+	/*background-image: url('Images/.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	background-color: white !important;
+	display: flex;
+
+	
+}
+
+input[type="text"]{
+	width: 25vw;
+}
+textarea{
+	width: 52vw;
+}
+
+.btn1 {
+	float: left;
+	background-color:
+	transparent !important;
+	color: black !important;
+}
+
+
+.count {
+	position: absolute;
+	top:0; bottom:0; left:0; right:0;
+	padding-top: 12vh;
+}
+
+.image {
+	
+	width: 160px;
+	height: 160px;
+}
+
+.object-fit_cover {
+	object-fit: cover;
+
+}
+h2 {
+	text-align:left
+}
