@@ -37,10 +37,12 @@ body{
 h2{
 	text-indent: 3%;
 	opacity: .75;
+	text-align: left;
 }
 h3{
-	font-size: 4vw;
+	text-indent: 3%;
 	opacity: .75;
+	text-align: center !important;
 }
 
 p{
@@ -83,9 +85,7 @@ textarea{
 	object-fit: cover;
 
 }
-h2 {
-	text-align:left
-}
+
 
 /*.AboutUs {
 	background-image: url("Images/IMG_3367 widget 60 opacity.png");
